@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>M4R Mini-App</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="/assets/cover.jpg" alt="cover" class="cover">
+    <h1>M4R Catalog</h1>
+    <p>Produits - Age 18+</p>
+
+    <div id="ageGate" class="card">
+      <label>Confirme ton âge</label>
+      <button id="ageYes">J'ai 18 ans ou plus</button>
+    </div>
+
+    <div id="catalog" style="display:none">
+      <div class="item">
+        <h3>Produit A - 3 unités</h3>
+        <button class="order" data-name="Produit A">Commander</button>
+      </div>
+      <div class="item">
+        <h3>Produit B - 1 unité</h3>
+        <button class="order" data-name="Produit B">Commander</button>
+      </div>
+    </div>
+
+    <div id="msg"></div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
