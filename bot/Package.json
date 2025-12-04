@@ -1,8 +1,22 @@
-"dependencies": {
-  "telegraf": "^4.12.0",
-  "express": "^4.18.2",
-  "helmet": "^6.0.0",
-  "cors": "^2.8.5",
-  "express-rate-limit": "^6.7.0",
-  "dotenv": "^16.0.0"
+{
+  "name": "m4r-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram M4R",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.0",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^6.7.0",
+    "dotenv": "^16.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "author": "M4R",
+  "license": "MIT"
 }
